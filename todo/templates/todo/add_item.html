@@ -7,8 +7,8 @@
     <title>Add Item</title>
 </head>
 <body>
-    <h1>Add a todo item</h1>
-    <form method="POST" action="{% url 'add' %}">
+    <h1>Add a Todo Item:</h1>
+    <form method="POST" action="add">
         {% csrf_token %}
         {{ form.as_p }}
         <div>
