@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-=6m#cobobux=to!27xxq8fx4t=$3l=a#+iv2f27%qh-c^8uta!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-floraking-hellodjango-4sg8xli28vx.ws-eu104.gitpod.io']
+ALLOWED_HOSTS = ['https://git.heroku.com/django-floraking-todo-app.git']
 
 
 # Application definition
