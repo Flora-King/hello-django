@@ -30,8 +30,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-=6m#cobobux=to!27xxq8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
-
+# ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+ALLOWED_HOSTS = ['8000-floraking-hellodjango-4sg8xli28vx.ws-eu104.gitpod.io']
 
 # Application definition
 
